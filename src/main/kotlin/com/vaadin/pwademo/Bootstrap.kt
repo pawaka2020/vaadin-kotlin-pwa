@@ -45,7 +45,7 @@ class Bootstrap : ServletContextListener {
         log.info("Initialization complete")
 
         // pre-populates the database with a demo data
-        Task.generateSampleData()
+        //Task.generateSampleData()
     } catch (t: Throwable) {
         log.error("Bootstrap failed!", t)
         throw t
